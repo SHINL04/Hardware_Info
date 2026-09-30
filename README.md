@@ -107,4 +107,4 @@ Issues and pull requests are welcome. Ideas for future improvements:
 
 ## License
 
-Released under the [MIT License](LICENSE). Add a `LICENSE` file to your repository (GitHub can generate one for you when you create the repo).
+Released under the [MIT License](LICENSE).
