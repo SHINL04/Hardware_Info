@@ -13,7 +13,6 @@ A single-file PowerShell script that displays your computer's complete hardware 
     Asset Tag               : Default string
 ```
 
-> Add a real screenshot here after you run it, for example `![Screenshot](screenshot.png)`.
 
 ## Features
 
