@@ -83,19 +83,6 @@ function Get-UsageBar {
     return "[" + ("#" * $filled) + ("." * ($Width - $filled)) + "]"
 }
 
-# ---------------------------------------------------------------
-#  Title
-# ---------------------------------------------------------------
-Clear-Host
-Write-Host ""
-Write-Host "   _   _ _____ _____ ____    ___ _   _ _____ ___  " -ForegroundColor Cyan
-Write-Host "  | | | |  ___|_   _/ ___|  |_ _| \ | |  ___/ _ \ " -ForegroundColor Cyan
-Write-Host "  | |_| | |_    | | \___ \   | ||  \| | |_ | | | |" -ForegroundColor Cyan
-Write-Host "  |  _  |  _|   | |  ___) |  | || |\  |  _|| |_| |" -ForegroundColor Cyan
-Write-Host "  |_| |_|_|     |_| |____/  |___|_| \_|_|   \___/ " -ForegroundColor Cyan
-Write-Host ""
-Write-Host "        SYSTEM & HARDWARE CONFIGURATION REPORT" -ForegroundColor White
-Write-Host ("        Generated: " + (Get-Date -Format "dddd, dd MMMM yyyy  HH:mm:ss")) -ForegroundColor DarkGray
 
 $isAdmin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()
            ).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
